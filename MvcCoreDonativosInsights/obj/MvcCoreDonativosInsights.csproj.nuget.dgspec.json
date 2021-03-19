@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ProfesorMCSD\\Documents\\Visual Studio 2019\\Projects\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights.csproj": {}
+    "C:\\Users\\Serra\\source\\repos\\mvccoredonativosinsights\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ProfesorMCSD\\Documents\\Visual Studio 2019\\Projects\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights.csproj": {
+    "C:\\Users\\Serra\\source\\repos\\mvccoredonativosinsights\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ProfesorMCSD\\Documents\\Visual Studio 2019\\Projects\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights.csproj",
+        "projectUniqueName": "C:\\Users\\Serra\\source\\repos\\mvccoredonativosinsights\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights.csproj",
         "projectName": "MvcCoreDonativosInsights",
-        "projectPath": "C:\\Users\\ProfesorMCSD\\Documents\\Visual Studio 2019\\Projects\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights.csproj",
-        "packagesPath": "C:\\Users\\ProfesorMCSD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ProfesorMCSD\\Documents\\Visual Studio 2019\\Projects\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights\\obj\\",
+        "projectPath": "C:\\Users\\Serra\\source\\repos\\mvccoredonativosinsights\\MvcCoreDonativosInsights\\MvcCoreDonativosInsights.csproj",
+        "packagesPath": "C:\\Users\\Serra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Serra\\source\\repos\\mvccoredonativosinsights\\MvcCoreDonativosInsights\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ProfesorMCSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Serra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -44,6 +43,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            },
+            "Microsoft.ApplicationInsights.TraceListener": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            },
+            "Microsoft.ApplicationInsights.Web": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

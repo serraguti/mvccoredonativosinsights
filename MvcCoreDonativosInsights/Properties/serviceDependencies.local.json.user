@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "restored": true,
+      "restoreTime": "2021-03-19T11:58:13.0671892Z"
+    }
+  },
+  "parameters": {
+    "appInsights1.subscriptionId": {
+      "Name": "appInsights1.subscriptionId",
+      "Type": "subscription",
+      "Value": "fc13eca9-eb3f-435c-b8a4-0c072afca40b"
+    },
+    "appInsights1.resourceGroupName": {
+      "Name": "appInsights1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "recursosviernes"
+    }
+  }
+}

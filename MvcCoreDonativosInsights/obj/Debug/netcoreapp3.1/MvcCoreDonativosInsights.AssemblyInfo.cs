@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ef19bd68-e8d9-4f7e-bcda-198860d77358")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcCoreDonativosInsights")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
