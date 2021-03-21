@@ -6,26 +6,32 @@ using System.Threading.Tasks;
 using Microsoft.ApplicationInsights;
 using Microsoft.ApplicationInsights.DataContracts;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace MvcCoreAzure.Controllers
 {
     public class HomeController : Controller
     {
         private TelemetryClient telemetryClient;
+        private ILogger<HomeController> _logger;
 
-        public HomeController(TelemetryClient telemetryclient)
+        public HomeController(TelemetryClient telemetryclient
+            , ILogger<HomeController> logger)
         {
             this.telemetryClient = telemetryclient;
+            this._logger = logger;
         }
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Hola!!!");
             return View();
         }
 
         [HttpPost]
         public IActionResult Index(String nombre, int cantidad)
         {
+            
             ViewData["MENSAJE"] = "Su donativo de "
               + cantidad
               + "€ ha sido almacenado.  " +
